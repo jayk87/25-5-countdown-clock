@@ -1,0 +1,41 @@
+#container {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
+  background-color: ;
+  width: 500px; 
+}
+
+#length-controls {
+  display: flex;
+  background-color: ;
+  justify-content: center;
+}
+
+.control-box {
+  padding: 15px;
+  background-color: ;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.plus-minus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.fas {
+  margin: 0 15px;
+}
+
+p {
+  font-size: 25px;
+}
+#time-left {
+  font-size: 40px;
+}
